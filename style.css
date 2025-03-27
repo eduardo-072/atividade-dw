@@ -10,6 +10,8 @@ body {
 }
 
 .ancoras {
+    text-decoration: none;
+    color: white;
     height: 80px;
     background-color: rgb(18, 89, 221);
     display: flex;
@@ -25,8 +27,14 @@ body {
 }
 
 .itens {
+    color: white;
     display: flex;
     gap: 10px;
+}
+
+.itens a{
+    color: white;
+    text-decoration: none;
 }
 
 .itens p {
